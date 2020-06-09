@@ -1,0 +1,22 @@
+{
+   "name": "reverse-proxy-cache",
+   "description": "Reverse proxy cache written in node.js",
+   "version": "0.1.0",
+   "keywords": ["reverse-proxy", "proxy-cache", "proxy", "cache"],
+   "main": "./index",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/swayampatni/reverse-proxy-cache.git"
+   },
+   "bugs": {
+      "url": "https://github.com/swayampatni/reverse-proxy-cache/issues"
+   },
+   "dependencies" : {
+      "ueberDB" : "*",
+	  "vows" : "*",
+	  "q" : "*",
+	  "redis" : "*"
+   },
+   "engines": {
+      "node": ">=0.8.11"
+   }}
